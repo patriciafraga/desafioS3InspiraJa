@@ -49,8 +49,7 @@ li a:hover {
 }
 
 .inicio {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(../img/city.jpg);
+  background-image: url(../img/cidadeNoite.jpg);
   background-position: center;
   background-size: cover;
   background-attachment: scroll;
@@ -62,10 +61,11 @@ li a:hover {
   margin: 0;
 }
 
+
 h1 {
   margin: 0;
   color: #ffff;
-  padding-top: 24%;
+  padding-top: 18%;
   font-size: 4rem;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   margin-bottom: 0;
@@ -101,7 +101,8 @@ iframe {
   background-color: #ededed;
 }
 #acao {
-  color: rgb(238, 238, 247);
+  color: black;
+  background-color: white;
   border: 1px solid white;
   border-radius: 7px;
   text-decoration: none;
@@ -113,7 +114,7 @@ iframe {
   padding-bottom: 15%;
 }
 #acao:hover {
-  background-color: white;
+  background-color: rgb(152, 151, 151);
   color: rgb(2, 0, 33);
 }
 a {
@@ -203,6 +204,26 @@ p {
   width: 95%;
 }
 
+.cards {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  align-items: center;
+  
+}
+.divIcon {
+  width: 20%;
+  float: left;
+  padding: 5% 10%;
+  position: relative;
+  text-align: center;
+}
+.iconesP {
+  color: rgba(0, 0, 255, 0.2);
+  width: 50%;
+  border-color: rgba(0, 0, 255, 0.2);
+}
+
 footer {
   float: left;
   padding: 1.5rem;
@@ -214,7 +235,7 @@ footer {
 
 .fontes {
   float: left;
-  width: 10%;
+  width: 7%;
   padding: 0 3%;
 }
 
